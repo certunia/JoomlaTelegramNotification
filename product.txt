@@ -1,0 +1,171 @@
+// just some example how order may look like
+// you can see field names
+
+object(stdClass)#876 (79) {
+  ["virtuemart_order_id"]=>
+  string(2) "52"
+  ["virtuemart_user_id"]=>
+  string(3) "679"
+  ["virtuemart_vendor_id"]=>
+  string(1) "1"
+  ["order_note"]=>
+  string(0) ""
+  ["order_number"]=>
+  string(7) "J8NX044"
+  ["customer_number"]=>
+  string(11) "VO9804f8584"
+  ["order_pass"]=>
+  string(10) "p_8rxSPMcN"
+  ["order_create_invoice_pass"]=>
+  string(8) "1i4tO94W"
+  ["invoice_locked"]=>
+  string(1) "0"
+  ["order_total"]=>
+  string(9) "115.75800"
+  ["order_salesPrice"]=>
+  string(9) "115.75800"
+  ["order_billTaxAmount"]=>
+  string(7) "0.00000"
+  ["order_billTax"]=>
+  string(180) "{
+    "1": {
+        "virtuemart_calc_id": 1,
+        "calc_name": "\u0426\u0435\u043d\u0430 \u0441 \u041d\u0414\u0421",
+        "calc_value": "0.0000",
+        "result": 0
+    }
+}"
+  ["order_billDiscountAmount"]=>
+  string(7) "0.00000"
+  ["order_discountAmount"]=>
+  string(7) "0.00000"
+  ["order_subtotal"]=>
+  string(9) "115.75800"
+  ["order_tax"]=>
+  string(7) "0.00000"
+  ["order_shipment"]=>
+  string(7) "0.00000"
+  ["order_shipment_tax"]=>
+  string(7) "0.00000"
+  ["order_payment"]=>
+  string(4) "0.00"
+  ["order_payment_tax"]=>
+  string(7) "0.00000"
+  ["coupon_discount"]=>
+  string(4) "0.00"
+  ["coupon_code"]=>
+  NULL
+  ["order_discount"]=>
+  string(4) "0.00"
+  ["order_currency"]=>
+  string(3) "131"
+  ["order_status"]=>
+  string(1) "P"
+  ["user_currency_id"]=>
+  string(3) "131"
+  ["user_currency_rate"]=>
+  string(8) "1.000000"
+  ["user_shoppergroups"]=>
+  string(2) "13"
+  ["payment_currency_id"]=>
+  string(3) "131"
+  ["payment_currency_rate"]=>
+  string(8) "1.000000"
+  ["virtuemart_paymentmethod_id"]=>
+  string(1) "1"
+  ["virtuemart_shipmentmethod_id"]=>
+  string(1) "1"
+  ["delivery_date"]=>
+  NULL
+  ["order_language"]=>
+  string(5) "ru-RU"
+  ["ip_address"]=>
+  string(14) "185.189.197.xx"
+  ["STsameAsBT"]=>
+  string(1) "1"
+  ["paid"]=>
+  float(0)
+  ["paid_on"]=>
+  string(19) "0000-00-00 00:00:00"
+  ["o_hash"]=>
+  string(32) "a497a70075a435df78de959d37c229ba"
+  ["created_on"]=>
+  &string(19) "2021-02-26 13:29:27"
+  ["created_by"]=>
+  string(3) "701"
+  ["modified_on"]=>
+  &string(19) "2021-02-26 13:29:27"
+  ["modified_by"]=>
+  &string(3) "679"
+  ["locked_on"]=>
+  string(19) "0000-00-00 00:00:00"
+  ["locked_by"]=>
+  string(1) "0"
+  ["order_created"]=>
+  &string(19) "2021-02-26 13:29:27"
+  ["order_modified"]=>
+  &string(19) "2021-02-26 13:29:27"
+  ["order_modified_by"]=>
+  &string(3) "679"
+  ["virtuemart_order_userinfo_id"]=>
+  string(2) "56"
+  ["address_type"]=>
+  string(2) "BT"
+  ["address_type_name"]=>
+  NULL
+  ["company"]=>
+  NULL
+  ["title"]=>
+  NULL
+  ["last_name"]=>
+  NULL
+  ["first_name"]=>
+  string(8) "Тест"
+  ["middle_name"]=>
+  string(9) "123456789"
+  ["phone_1"]=>
+  string(17) "+7(123) 456-78-90"
+  ["phone_2"]=>
+  NULL
+  ["fax"]=>
+  NULL
+  ["address_1"]=>
+  string(27) "Тестовый заказ"
+  ["address_2"]=>
+  NULL
+  ["city"]=>
+  string(0) ""
+  ["virtuemart_state_id"]=>
+  string(1) "0"
+  ["virtuemart_country_id"]=>
+  NULL
+  ["zip"]=>
+  string(0) ""
+  ["email"]=>
+  string(17) "dtuneev@gmail.com"
+  ["agreed"]=>
+  string(1) "0"
+  ["tos"]=>
+  string(1) "1"
+  ["customer_note"]=>
+  string(0) ""
+  ["Cod1C_DELETED_1597135860"]=>
+  NULL
+  ["Cod1C-1"]=>
+  NULL
+  ["order_status_code"]=>
+  string(1) "P"
+  ["order_status_color"]=>
+  NULL
+  ["order_status_name"]=>
+  string(35) "COM_VIRTUEMART_ORDER_STATUS_PENDING"
+  ["order_status_description"]=>
+  string(0) ""
+  ["order_stock_handle"]=>
+  string(1) "R"
+  ["ordering"]=>
+  string(1) "1"
+  ["order_name"]=>
+  string(18) "Тест 123456789"
+}
+1| 1Холодец Крестьянский 600 гр Снежана

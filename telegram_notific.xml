@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="1.0" type="plugin" group="vmcustom" method="upgrade">
+    <name>telegram_notific</name>
+    <creationDate>02.2019</creationDate>
+    <author>dtuneev</author>
+    <authorEmail>dtuneev@gmail.com</authorEmail>
+    <version>1.0</version>
+    <description>Telegram notification for Virtuemart 3</description>
+    <files folder="site">
+        <filename plugin="telegram_notific">telegram_notific.php</filename>
+		<filename>index.html</filename>
+	</files>
+    <config>
+        <fields name="params">
+            <fieldset name="basic">
+                <field name="token" type="text"
+                       default="your bot token here"
+                       description="bot token, get it from bot Father"
+                       label="token"
+                />
+
+                <field name="chat_id" type="text"
+                       default="-123456789"
+                       description="chat_id ex -123456789"
+                       label="chat_id"
+                />
+
+                <field name="msg_before" type="text"
+                       default="Order received!"
+                       description="desc"
+                       label="Text before content"
+                />
+
+                <field name="msg_after" type="text"
+                       default="End..."
+                       description="desc"
+                       label="Text before"
+                />
+
+                <field name="on_off" type="radio"
+                       default="0"
+                       description="-_-"
+                       label="on/off"
+                >
+                    <option value="0">JOFF</option>
+                    <option value="1">JON</option>
+                </field>
+            </fieldset>
+        </fields>
+    </config>
+</extension>
